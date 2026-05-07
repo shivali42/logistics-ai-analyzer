@@ -256,7 +256,7 @@ function calculateGrouped(rows: CSVRow[], intent: QueryIntent): CalculationResul
   const description =
     `${rows.length} records grouped by ${groupKey}. ` +
     `${groupedData.length} groups. ` +
-    `Top group: "${top?.[groupKey]}" with ${top?.[sortKey]} ${sortKey.replace(/_/g, ' ')}.`;
+    `Top group: "${top?.[groupKey]}" with ${top?.[sortKey]} ${String(sortKey).replace(/_/g, ' ')}.`;
 
   return { value: groupedData.length, description, groupedData };
 }

@@ -78,7 +78,7 @@ cp .env.example .env.local
 Open `.env.local` and add your key:
 
 ```env
-ANTHROPIC_API_KEY=sk-ant-...
+GROQ_API_KEY=sk-ant-...
 ```
 
 > **Where to get the key:** Log in to [console.anthropic.com](https://console.anthropic.com/), go to **API Keys**, and click **Create Key**. Copy the value — you won't be able to see it again.
@@ -191,7 +191,7 @@ npm i -g vercel
 vercel
 
 # Follow the prompts, then add your environment variable:
-vercel env add ANTHROPIC_API_KEY
+vercel env add GROQ_API_KEY
 ```
 
 ### Option B — Vercel Dashboard
@@ -200,7 +200,7 @@ vercel env add ANTHROPIC_API_KEY
 2. Go to [vercel.com/new](https://vercel.com/new) and import your repository.
 3. Vercel auto-detects Next.js — no build settings needed.
 4. Before clicking **Deploy**, open **Environment Variables** and add:
-   - **Key:** `ANTHROPIC_API_KEY`
+   - **Key:** `GROQ_API_KEY`
    - **Value:** your `sk-ant-...` key
 5. Click **Deploy**. Your app will be live at `https://<project>.vercel.app` in ~60 seconds.
 
@@ -218,7 +218,7 @@ vercel env add ANTHROPIC_API_KEY
 
 | Variable | Required | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Yes | Your Anthropic API key (`sk-ant-...`) |
+| `GROQ_API_KEY` | Yes | Your Anthropic API key (`sk-ant-...`) |
 
 No other environment variables are needed. The rate-limit store is in-memory, which resets on each deployment — suitable for demos and single-instance production. For multi-instance deployments, replace the in-memory map in `app/api/analyze/route.ts` with a Redis store (e.g. [Upstash](https://upstash.com/)).
 
@@ -252,7 +252,7 @@ Work through this list before going live. Every item is independently verifiable
 
 ### Environment Variables
 
-- [ ] `ANTHROPIC_API_KEY` is set in `.env.local` (local) and in Vercel Project Settings (production)
+- [ ] `GROQ_API_KEY` is set in `.env.local` (local) and in Vercel Project Settings (production)
 - [ ] Key starts with `sk-ant-` and has not been rotated since you copied it
 - [ ] Optional: `NEXT_PUBLIC_APP_URL` is set to your production domain for correct OG image URLs
 
@@ -297,7 +297,7 @@ Work through this list before going live. Every item is independently verifiable
 
 - [ ] `vercel.json` is committed
 - [ ] Project is linked: `vercel link` (or imported via dashboard)
-- [ ] `ANTHROPIC_API_KEY` added under **Project → Settings → Environment Variables** for Production
+- [ ] `GROQ_API_KEY` added under **Project → Settings → Environment Variables** for Production
 - [ ] First deployment succeeds: `vercel --prod`
 - [ ] Production URL opens and the app loads without a white screen
 - [ ] `/sample-logistics.csv` is publicly accessible at the production URL
@@ -306,7 +306,7 @@ Work through this list before going live. Every item is independently verifiable
 
 ## Troubleshooting
 
-**`ANTHROPIC_API_KEY` not found error on `/api/analyze`**
+**`GROQ_API_KEY` not found error on `/api/analyze`**
 Make sure you have a `.env.local` file (not `.env`) and that you restarted `npm run dev` after adding the key.
 
 **"Only .csv files are accepted" but my file is a CSV**
