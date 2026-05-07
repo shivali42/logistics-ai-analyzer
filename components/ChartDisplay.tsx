@@ -23,7 +23,6 @@ import EmptyState from './EmptyState';
 const INDIGO = '#4f46e5';
 const INDIGO_LIGHT = '#818cf8';
 const PIE_PALETTE = ['#4f46e5', '#818cf8', '#6366f1', '#a5b4fc', '#c7d2fe', '#e0e7ff'];
-const AXIS_COLOR = '#9ca3af';
 const TICK_STYLE = { fill: '#6b7280', fontSize: 11 };
 
 // ─── Types ────────────────────────────────────────────────────────────────────

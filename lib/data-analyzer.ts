@@ -208,7 +208,7 @@ function formatMonth(dateStr: string): string {
   return `${MONTH_LABELS[d.getMonth() + 1]} ${d.getFullYear()}`;
 }
 
-function aggregateGroup(groupRows: CSVRow[]): Omit<GroupedRow, string> {
+function aggregateGroup(groupRows: CSVRow[]): Pick<GroupedRow, 'count' | 'total_delay_hours' | 'avg_delay_hours' | 'total_cost' | 'avg_cost' | 'delayed_count'> {
   const count = groupRows.length;
   const totalDelay = groupRows.reduce((s, r) => s + (parseFloat(r.delay_hours) || 0), 0);
   const totalCost = groupRows.reduce((s, r) => s + (parseFloat(r.cost) || 0), 0);
