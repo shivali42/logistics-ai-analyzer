@@ -1,0 +1,76 @@
+shipment_id,route,origin,destination,carrier,scheduled_date,actual_delivery_date,delay_hours,status,cost
+SHP001,North-101,Delhi,Chandigarh,BlueDart,2026-02-10,2026-02-10,0,delivered,850
+SHP002,West-205,Mumbai,Pune,Delhivery,2026-02-11,2026-02-13,18,delayed,620
+SHP003,East-330,Kolkata,Patna,DTDC,2026-02-11,2026-02-11,0,delivered,540
+SHP004,South-410,Chennai,Hyderabad,FedEx,2026-02-12,2026-02-14,24,delayed,1200
+SHP005,North-101,Chandigarh,Delhi,BlueDart,2026-02-12,2026-02-12,0,delivered,870
+SHP006,West-205,Pune,Mumbai,Ecom Express,2026-02-13,2026-02-13,0,delivered,590
+SHP007,East-330,Patna,Kolkata,DTDC,2026-02-13,2026-02-15,36,delayed,510
+SHP008,South-410,Hyderabad,Chennai,Delhivery,2026-02-14,2026-02-14,0,delivered,1150
+SHP009,North-101,Delhi,Lucknow,FedEx,2026-02-14,2026-02-16,48,delayed,960
+SHP010,West-205,Ahmedabad,Mumbai,BlueDart,2026-02-15,2026-02-15,0,delivered,780
+SHP011,South-410,Bangalore,Chennai,Delhivery,2026-02-15,2026-02-17,12,delayed,1080
+SHP012,East-330,Kolkata,Goa,FedEx,2026-02-16,2026-02-16,0,delivered,2200
+SHP013,North-101,Lucknow,Delhi,DTDC,2026-02-16,2026-02-18,24,delayed,940
+SHP014,West-205,Mumbai,Ahmedabad,Ecom Express,2026-02-17,2026-02-17,0,delivered,760
+SHP015,South-410,Chennai,Bangalore,BlueDart,2026-02-17,2026-02-17,0,delivered,1100
+SHP016,North-101,Delhi,Patna,Delhivery,2026-02-18,2026-02-20,30,delayed,1050
+SHP017,West-205,Pune,Goa,FedEx,2026-02-18,2026-02-18,0,delivered,1400
+SHP018,East-330,Kolkata,Hyderabad,DTDC,2026-02-19,2026-02-21,42,delayed,2100
+SHP019,South-410,Hyderabad,Bangalore,BlueDart,2026-02-19,2026-02-19,0,delivered,980
+SHP020,North-101,Chandigarh,Lucknow,Ecom Express,2026-02-20,2026-02-22,6,delayed,890
+SHP021,West-205,Mumbai,Goa,Delhivery,2026-02-20,2026-02-20,0,delivered,1600
+SHP022,East-330,Patna,Delhi,FedEx,2026-02-21,2026-02-21,0,delivered,1020
+SHP023,South-410,Bangalore,Hyderabad,DTDC,2026-02-21,2026-02-23,18,delayed,1050
+SHP024,North-101,Delhi,Kolkata,BlueDart,2026-02-22,2026-02-24,36,delayed,1800
+SHP025,West-205,Ahmedabad,Pune,Ecom Express,2026-02-22,2026-02-22,0,delivered,640
+SHP026,South-410,Chennai,Goa,FedEx,2026-02-23,2026-02-23,0,delivered,1900
+SHP027,East-330,Kolkata,Lucknow,Delhivery,2026-02-23,2026-02-25,12,delayed,1300
+SHP028,North-101,Delhi,Mumbai,BlueDart,2026-02-24,2026-02-26,24,delayed,2400
+SHP029,West-205,Goa,Pune,DTDC,2026-02-24,2026-02-24,0,delivered,1380
+SHP030,South-410,Hyderabad,Chennai,Ecom Express,2026-02-25,2026-02-25,0,delivered,1130
+SHP031,North-101,Lucknow,Chandigarh,FedEx,2026-02-25,2026-02-27,48,delayed,980
+SHP032,East-330,Patna,Kolkata,BlueDart,2026-02-26,2026-02-26,0,delivered,520
+SHP033,West-205,Mumbai,Ahmedabad,Delhivery,2026-02-26,2026-02-26,0,delivered,790
+SHP034,South-410,Bangalore,Chennai,DTDC,2026-02-27,2026-03-01,6,delayed,1070
+SHP035,North-101,Delhi,Chandigarh,Ecom Express,2026-02-27,2026-02-27,0,delivered,830
+SHP036,East-330,Hyderabad,Kolkata,FedEx,2026-02-28,2026-02-28,0,delivered,2050
+SHP037,West-205,Pune,Mumbai,BlueDart,2026-02-28,2026-03-02,30,delayed,610
+SHP038,South-410,Chennai,Hyderabad,Delhivery,2026-03-01,2026-03-01,0,delivered,1180
+SHP039,North-101,Chandigarh,Delhi,DTDC,2026-03-01,2026-03-03,2,delayed,860
+SHP040,East-330,Kolkata,Patna,Ecom Express,2026-03-02,2026-03-02,0,delivered,500
+SHP041,West-205,Goa,Mumbai,FedEx,2026-03-02,2026-03-04,8,delayed,1650
+SHP042,South-410,Hyderabad,Bangalore,BlueDart,2026-03-03,2026-03-03,0,delivered,990
+SHP043,North-101,Delhi,Lucknow,Delhivery,2026-03-04,2026-03-06,36,delayed,970
+SHP044,East-330,Patna,Hyderabad,DTDC,2026-03-04,2026-03-04,0,delivered,1900
+SHP045,West-205,Ahmedabad,Goa,FedEx,2026-03-05,2026-03-07,20,delayed,2300
+SHP046,South-410,Chennai,Bangalore,Ecom Express,2026-03-05,2026-03-05,0,delivered,1120
+SHP047,North-101,Lucknow,Delhi,BlueDart,2026-03-06,2026-03-06,0,delivered,950
+SHP048,East-330,Kolkata,Goa,Delhivery,2026-03-07,2026-03-09,48,delayed,2250
+SHP049,West-205,Mumbai,Pune,DTDC,2026-03-07,2026-03-07,0,delivered,600
+SHP050,South-410,Bangalore,Hyderabad,FedEx,2026-03-08,2026-03-10,14,delayed,1030
+SHP051,North-101,Delhi,Kolkata,Ecom Express,2026-03-09,2026-03-09,0,delivered,1850
+SHP052,East-330,Hyderabad,Patna,BlueDart,2026-03-10,2026-03-10,0,delivered,1750
+SHP053,West-205,Pune,Ahmedabad,Delhivery,2026-03-10,2026-03-12,4,delayed,660
+SHP054,South-410,Chennai,Goa,DTDC,2026-03-11,2026-03-11,0,delivered,1950
+SHP055,North-101,Chandigarh,Lucknow,FedEx,2026-03-12,2026-03-14,24,delayed,910
+SHP056,East-330,Kolkata,Delhi,Ecom Express,2026-03-13,2026-03-13,0,delivered,1700
+SHP057,West-205,Goa,Ahmedabad,BlueDart,2026-03-14,2026-03-16,16,delayed,2150
+SHP058,South-410,Hyderabad,Chennai,Delhivery,2026-03-15,2026-03-15,0,delivered,1160
+SHP059,North-101,Delhi,Chandigarh,DTDC,2026-03-16,2026-03-18,12,delayed,840
+SHP060,East-330,Patna,Kolkata,FedEx,2026-03-17,2026-03-17,0,delivered,530
+SHP061,West-205,Mumbai,Goa,BlueDart,2026-04-01,2026-04-01,0,delivered,1620
+SHP062,South-410,Bangalore,Chennai,Ecom Express,2026-04-02,2026-04-04,10,delayed,1090
+SHP063,North-101,Delhi,Lucknow,Delhivery,2026-04-03,2026-04-05,22,delayed,960
+SHP064,East-330,Kolkata,Hyderabad,DTDC,2026-04-04,2026-04-04,0,delivered,2080
+SHP065,West-205,Ahmedabad,Pune,FedEx,2026-04-10,2026-04-10,0,delivered,670
+SHP066,South-410,Chennai,Bangalore,BlueDart,2026-04-12,2026-04-14,18,delayed,1110
+SHP067,North-101,Chandigarh,Delhi,Ecom Express,2026-04-15,2026-04-15,0,delivered,880
+SHP068,East-330,Hyderabad,Patna,Delhivery,2026-04-18,2026-04-20,36,delayed,1780
+SHP069,West-205,Goa,Mumbai,DTDC,2026-04-20,2026-04-20,0,delivered,1590
+SHP070,South-410,Hyderabad,Bangalore,FedEx,2026-04-22,2026-04-24,28,delayed,1020
+SHP071,North-101,Delhi,Patna,BlueDart,2026-04-25,2026-04-25,0,in-transit,1030
+SHP072,East-330,Kolkata,Lucknow,Ecom Express,2026-04-28,2026-04-28,0,in-transit,1280
+SHP073,West-205,Mumbai,Ahmedabad,Delhivery,2026-05-01,2026-05-01,0,in-transit,800
+SHP074,South-410,Chennai,Hyderabad,DTDC,2026-05-03,2026-05-03,0,cancelled,1170
+SHP075,North-101,Delhi,Mumbai,FedEx,2026-05-05,2026-05-05,0,in-transit,2500

@@ -1,0 +1,47 @@
+# Project: Logistics AI Analysis Tool
+
+## Context
+Building a logistics data analysis tool for an assignment. Managers upload CSV files and ask questions in natural language to get AI-generated insights and visualizations.
+
+## Tech Stack
+- Next.js 16 (App Router)
+- TypeScript (strict mode)
+- Tailwind CSS
+- Recharts for visualizations
+- Claude API (@anthropic-ai/sdk)
+- PapaParse for CSV parsing
+
+## Coding Standards
+1. **TypeScript**: Strict typing, no 'any' types, proper interfaces
+2. **Components**: Functional components with TypeScript, proper prop types
+3. **Naming**: 
+   - Components: PascalCase (CSVUploader.tsx)
+   - Files: kebab-case for utils (parse-csv.ts)
+   - Variables: camelCase
+4. **File Structure**:
+   - /app - Next.js pages and API routes
+   - /components - React components
+   - /lib - Utilities and helpers
+   - /types - TypeScript type definitions
+5. **Code Quality**:
+   - No console.logs in final code
+   - Proper error handling with try-catch
+   - User-friendly error messages
+   - Comments for complex logic only
+   - Accessible components (ARIA labels, keyboard navigation)
+6. **Styling**: Tailwind CSS with consistent spacing, professional design, no generic AI look
+7. **API**: Proper error handling, validation, rate limiting consideration
+
+## Project Goals
+- Clean, maintainable code
+- Professional UI/UX
+- Mobile responsive
+- Production-ready quality
+- Complete in <24 hours
+
+## Key Requirements
+- Client-side CSV storage (no backend database)
+- Natural language to insights pipeline
+- Multiple chart types (bar, line, pie, table)
+- Error handling and loading states
+- Deployment-ready for Vercel

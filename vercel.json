@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    },
+    {
+      "source": "/sample-logistics.csv",
+      "headers": [
+        { "key": "Content-Type", "value": "text/csv" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"sample-logistics.csv\"" }
+      ]
+    }
+  ]
+}
